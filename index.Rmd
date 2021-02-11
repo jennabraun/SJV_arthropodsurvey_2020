@@ -1,0 +1,190 @@
+---
+title: Survey directions for prey item survey 2020
+output:
+    rmdformats::readthedown:
+      collapsed: false
+      highlight: kate
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Sampling overview
+
+| Methods                      | Reps                                                                 | Duration                    | Vegetation measurements              | Spacing                                                                                                                                           |
+|------------------------------|----------------------------------------------------------------------|-----------------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pitfalls                     | 12 under shrubs, 12 in open                                          | 72 hours                    | Shrub x, y, z Quadrats (shrub, open) | Set out along a line, 10 m between focal shrubs. Opens paired with shrub. If an unshrubbed site, set two lines of traps, all 10 m apart           |
+| Malaise                      | 1 in central location, shrubbed area                                 | 72 hours                    | None                                 | Set up one halfway along pitfall line in a shrubbed area. Add a sign to the malaise saying it is for research.                                    |
+| Shrubs - Sweep netting       | 10 shrubs, 1 min per shrub                                           | 2 x, once per day           | Shrub x, y, z Quadrat                | 10 m between focal shrubs within a day. Pick different shrubs each day, spread them around the site if possible, Skip at unshrubbed               |
+| Transects - sweep            | 10 transects of 25 sweeps (90 seconds)                               | 2 x, once per day           | None                                 | Keep three meters apart min for paired transects, spread out the pairs throughout the study site.                                                 |
+| Transects - search and scare | 10 transects of 25 sweeps (90 seconds)                               | 2 x, once per day           | None                                 | Keep three meters apart min for paired transects, spread out the pairs throughout the study site.                                                 |
+| Free form collecting         | 15 minutes, 2 people  30 min if alone, doesn’t have to be continuous | 2 x, once per day           | None                                 | Wherever you see insects. Ignore ants & flies. Check microhabitats not considered. Goal is to catch insects the other surveys might have missed.  |
+| IR sensor readings           |                                                                      | Hourly or 3-5 times per day | 1 shrub spot, 1 open spot            | Whenever at site                                                                                                                                  |
+| Vegetation                   | 10 x 25 m transects, 6 quadrats per transect (60 q per site)         | Once per month              | Quadrats                             | Every 4 m along transects, spread them out around the study site                                                                                  |
+
+![Overview: M = malaise trap](overview.jpg)
+
+
+# Electronics
+## IR Sensors
+Take temperature readings at one shrub microsite (under canopy on the north side) and then in an open area. Timing - hourly while at the site. I don’t know if the IR guns can take air temp (I have never used them).
+
+## GPS Units
+
+Ensure the time and date are set correctly. Keep a spare pair of AA batteries in your backpack at all times as they need to be replaced in the unit every day and half or so to avoid walking back to the car. Remember to turn it off at the end of the day and when in the car (I always forget).
+
+When setting waypoints name them short but logical names so it is easy for me to process the .gpx. You don’t need a site id or anything because it will be obvious from the location. 
+
+Pitfall - PS1, PO1 = pitfall + microsite +  rep id
+
+Transect - T1 at start and end of transect. You don’t need separate waypoints for each of sweep/vac, just the general transect location/direction so I can see how much coverage there is when analyzing the data.
+
+Malaise - MAL
+
+At the end of each month pull the waypoints off the GPS units (.gpx files) and upload them to the google drive. 
+
+# Data management
+
+Take photos of your datasheets and field notebook everyday something gets added. Email the photos or upload to the google drive as soon as possible.  If something happens i.e. car break in, lost notebook then there is no data loss. I started doing this after hearing some horror stories from other field biologists. 
+It will also make it easier to correct data entry problems and it is good from an open science perspective. I have taken to uploading my handwritten datasheets to my project github repo.
+
+Enter the covariate data into the google drive datasheets. 
+
+
+# Vegetation Methods
+## Transects
+Do 10 transects per site, once per month for a total of 60 quadrats per site per month. I will use this dataset to build a picture of the vegetation characteristics of the site and quantify different types of insect habitat. Spread them out around the site. Each “site” is an approximately 250 by 250 m square centred around the line of pitfalls. 
+
+Run a measuring tape 25 m. Every 4m, place a 0.5 m by 0.5 m  quadrat, alternating sides of the transect every 4 m. Within each quadrat, estimate percent cover (see below), vegetation height in cm from centre of quadrat, record dominant vegetation  type (shrub - ephedra or other, herb, grasses, perennial etc) and whether the dominant veg is dried or not. Most annual vegetation will be dry during the summer.
+
+## Measuring shrubs
+
+Measure the size of the shrub with a measuring tape to the nearest cm:
+X is the horizontal width at the widest point of the shrub
+Y is the horizontal perpendicular to X
+Z is the vertical height from the ground to the tip of highest living branch
+
+## Measuring percent cover
+
+Within a 0.5 m by 0.5 m quadrat, visually estimate the percentage covered by dry vegetation, green vegetation, woody debris (sticks, logs, ephedra bits), rocks (only those greater than about 5cm) and bare ground. These should sum to 100. 
+
+# Arthropod Collection Methods
+## Labelling
+
+Always place a paper label (use scissors, torn labels break down more easily) and pencil (pen will wash away/ damage specimens) inside each specimen vial. 
+Please spell out the month ie June, July, Aug. Keep related vials in separate bags organized by site and month. EG.  a bag for Panoche Plateau - June containing a bag for pitfalls, a bag for each day of transects. This way if there is a mislabelling I can figure out where the sample belongs. 
+
+Format:
+
+Microsite - rep - trap type - date - site name abbreviation
+
+Shrub 01 - pit- July 15 - Plat
+Transect 01 - swp - Aug 2 - Lok S
+Shrub 02 - vac - Aug 2 - Lok U
+
+## Pitfall traps
+
+![pitfall trap](pitfall.jpg)
+
+**Microsites:** Locate the shrub microsite on the north side of Ephedra californica. Place the pitfall beneath the shrub canopy. If the shrub is very large place is 25 cm from the dripline (the canopy edge) but if the shrub is too small place it  halfway between the canopy edge and the stem. 
+
+Locate the open microsites by chucking something backwards over your shoulder. Ensure it is at least 2 m away from the edge of any shrub. Flag the shrub with flagging tape labelled with the rep number. GPS the shrub and the open site.
+Look and listen for rattlesnakes under the shrubs. Don’t stick your hands into grass or places you can’t see under the shrub, put the quadrat in first or sweep around with a stick etc.
+
+**Deploying:** Any time of day including evening.
+
+Dig a small hole in ground using a hand trowel or auger to fit the plastic cup. Place the removed soil onto a piece of cardboard or towel to minimize disturbance. Place two clear nested cups in the ground so that the top is flush with the ground. If there is a ridge insects will walk up to it and then away. Fill excess hole with dirt to minimize space between ground and top of cup. If there are rocks and twigs you can place over the interface of cup and ground. Fill cup with approximately 3 cm of 100% propylene glycol. Add the lizard trap (circle of hardware cloth) and suspend the aluminum flashing as a roof a couple of inches off the ground. See the bean lab protocol within the google drive for more details.
+
+![Lizard trap: Photo credit Bean Lab](pitfall2.jpg)
+
+Whenever you are around in the area peek into the traps to check for lizards and rescue them by relocating them. 
+
+**Collecting:** Pick up the traps after 72 hours. Sieve the insects out removing as much dirt and rocks as possible but it is better to keep some rocks than lose the very tiny insects. 
+
+What I do is place the sieve in the funnel, sieve out the insects over a gallon jug to collect the old glycol. I pick out the big rocks and any twigs. Then I put the funnel over a vial, invert the sieve and tap in the insects into the funnel, and then rinse them into the vial with the squirt bottle of glycol. Add a label to the vial.
+
+If you are struggling to do this in the field another option is to place the samples into good quality ziploc bags with the labels and then transfer the samples in vials back at camp/the lodge. It’s important the specimens don’t get squished and that too much liquid doesn’t leak out. Only put a bit of liquid in the bags. Try to find a good box or something to hold them vertical. It increases overall handling time but you get to sit somewhere vs crouching in the field & can give you more flexibility with time management.
+
+**Vegetation measurements:** Record the x, y, z of the shrub. Record the vegetation within a quadrat centered over each pitfall trap in the shrub and in the open microsite. It’s easiest to do this when putting out the traps, but can be finished a different day if running out of time. 
+Suggest that one person digs in the traps and fills them, and the other measures the veg, sets the waypoints.
+
+**Supplies:** Quadrat, measuring tape, GPS, pencil, scissors, paper for label, propylene glycol in a squirt bottle for filling vials, propylene in a large bottle for filling traps,  sieve, funnel, bottle for waste glycol, ziploc bags, specimen containers and lids, plastic drink cups (2 per rep), lizard traps (pre-cut circles of hardware cloth), aluminum roof, rocks
+
+## Malaise traps
+
+![malaise trap](malaise.jpg)
+
+**Deploying:** Any time of day including evening.
+
+1 Malaise trap per site, set up in a central location and leave out for 72 hours. There should be instructions in the bag for set up. Fill collecting jar ½ way with propylene glycol. 
+
+**Veg measurements:** None. Just GPS the spot.
+
+**Picking up:** There should be enough collection jars for each site to have one. You can strain out the insects and reuse the propylene glycol but ensure the same jar gets used for the same site. Just leave the glycol in the jar. 
+The collecting jars should have lids, so pop in a label and then transfer to the specimen vials while at camp or at a picnic table in the shade. These will probably best fit 50 ml sample vial. It’ll probably be easiest to strain out glycol and then just pour the remain 50 Ml into a sample vial vs. straining out the insects because these traps tend to catch a lot and many will be very small. 
+
+**Supplies:** Malaise trap, collecting bottle, specimen vials, paper, scissors, pencil, gps
+
+## Sweep netting technique
+[Helpful video](https://www.youtube.com/watch?v=E9CUAs1MkIk)
+
+[Another helpful video](https://www.youtube.com/watch?v=afSDbeMhIvo)
+
+"To prevent the escape of collected invertebrates,we quickly twisted the net 180◦at the end of each arc (Buffington and Redak 1998). At the end of each transect, we flicked the sweep-net to knock the invertebrates to the bottom of the net, cinched the opening closed with one hand, and emptied the contents.”
+
+Sweep in an arc side to side in front of you, holding the net perpendicular to the ground but angled so the net is facing up a bit so that the insects get knocked into the net. It is a fairly forceful action, it is normal to get foliage in the net as well. Twist the net to prevent insects from leaving. Watch the videos for some tips on getting insects out of the net and into vials.
+
+## Transect sampling
+
+Try to minimize disturbance within the transect before going to collect insects. 
+Do these between 8 and 3ish. Insect activity will die down in the heat of the afternoon, however, if you are still seeing insects you are probably good.
+Each transect is 25 m long. At the beginning of the season, measure these out, spreading them around the pitfall line. Put a flag in the ground at the beginning and the end. Write the number of the transect on both flags and gps the beginning and end. Name the way points T1 etc. The study site is 250 by 250 m so spread them around. 
+
+**Sweep:** Work parallel to search transect. The goal is to minimize disturbance between transects but be close enough that the insect communities are fairly similar so that we can compare them and account for differences in sampling methods.
+
+ Do the 25 sweeps at the same pace, i.e. one transect in 90 seconds. Count the sweeps. Sweep the top 50% of veg. Where there is no veg sweep as if there were - so the same amount of ground is covered in the same time.
+ 
+At sites with thorns be careful and just skip veg that is obviously sharp.
+
+**Active search and scare:**  Work parallel to sweep transects 3 m away from either sweep net transect. Can work in pairs. One person agitates using the back of their net and the other catches grasshoppers and other insects that are escaping. Also scan the ground for larger beetles and catch them but don’t worry about ants, flies or other very small insects. Do 25 ‘sweeps’ from side to side. If there are grasshoppers around at the site it is really critical that we are collecting them because they are known to be an important component of BNLL diet and difficult to sample with other methods. Let us know if there are issues collecting them and we’ll try to work it out.
+
+Try to catch everything escaping from within the 2 m width along the transect but grasshoppers are the most important. Both people help catch. Keep a tally of escapees so that we can apply some sort of adjustment factor to the sweep catches during analysis. Put each catch in the same vial or different ones and keep moving. At the end of the transect add label and combine together in the same vial with a killing agent.
+Use the same transect locations throughout the study period, but vary where you are actually sampling by moving parallel farther away from the flags each day. 
+
+## Shrub sampling
+
+SKIP at unshrubbed sites or sites with only a few shrubs - see site descriptions
+
+**Sweep net:** Set a timer and sweep each shrub for 1 minute, try to standardize the number of sweeps i.e. do 20 sweeps in the minute each time. Walk around the shrub and sweep from all sides. Also sweep any understory veg. Flag the shrub with the rep number so you know it has been sampled before. Set a waypoint, measure the x, y, z and take quadrat measurements of the understory on the north side of the shrub.
+
+## Free-form collecting
+
+The goal of this period is to target larger insects that may have been missed by the standardized surveys. Two people, 15 minutes each. Set a timer. Ignore ants and flies. Look in shrubs, under things, look around to see beetles walking along the ground. Can try to catch flying insects with the net. If you see a ground beetle from a distance head over and grab it. All of the other methods are really restrictive and standardize so we can compare relative abundances, however, this may miss some rarer individuals that live in different habitats. We can barcode them and mark them as present/absent for the site which is still useful.
+
+ Everything can go in the same vial. Record the time of day, site & date, add labels. No other covariates. Use the nets to catch or catch right in the vials & fill with glycol.
+ 
+## Setting up the kill jar
+Kill jars are normally “charged” using ethyl acetate, however, that can make it very difficult to extract DNA. So we are using rubbing alcohol instead. Charge the jar by adding a few tablespoons of isopropyl. Empty the net directly into the jar and cover, leaving until the insects stop moving. Transfer them into a specimen vial filled with propylene glycol and insert a label. 
+
+If the fumes don’t reliably kill the insects quickly (I have concerns the heat may volatize the alcohol too much), then you can try the method in the first video putting the insects directly into a large vial of isopropyl. If there are only a few, you can place the insect into an empty vial and then fill it up with isopropyl using a squirt bottle or put the insects into a bag with a bit of alcohol.
+You can leave the insects in isopropyl as long as needed but transfer them into the propylene glycol before shipping them to me.
+
+## Specimen Processing
+
+**Storage** Keep the specimens as cool as possible. Keep out of the sun, put in a cooler and store in a fridge if possible. This will help maintain the DNA. 
+
+## Mailing
+
+Mail specimens to me using UPS Ground. Ensure these codes are written on the outside of the box clearly. I write them in sharpie right on the box, on the top and also on the side. These are codes from the CFIA (canadian food inspection agency), the staff will have no idea what they are.  Permits are not required for dead insects and these codes tell border inspection what is inside.
+
+ATTN: CFIA
+
+HS: 051199
+
+OGD: 016100
+
+Enduse: 01
+
+Make sure the total value of the package is less than $15 USD. Shipping label “Dead insect specimens in non-toxic preservative for scientific research”.
+
